@@ -1,63 +1,9 @@
-# CLOP: Contrastive Language-Omics Pre-training
+# Project webapp demos
 
-## Project description
+* [FCGR-SEQ](https://baudrly.github.io/fcgrseq): easy conversion of variable-length DNA sequences into fixed-dimension images using [Frequency Chaos Game Representation](https://github.com/abhi1238/FCGR). The idea is to leverage powerful image processing techniques for genomic analysis and compute a diversity of 'image metrics' on the sequences as it turns out many characteristics of sequence functionality have a distinct fingerprint. It also enables novel alignment-free algorithmic approaches. The fixed size is also handy for computer vision and machine learning purposes.
 
-CLOP aims to provide a shared embedding for omics (DNA, RNA, protein) sequences and their functions which can be used to perform downstream analysis at high speed.
+* [Trivoroboost](https://baudrly.github.io/trivoroboost): an expansion of [serpentine binning](https://github.com/koszullab/serpentine) (a local, 2D and signal-aware binning of Hi-C contact maps), it performs the same approach using Delaunay graphs (and their counterpart, Voronoi diagrams). The pixels are grouped according to their values and their neighbors' in the graph, and the resulting set of binned regions is a Voronoi diagram. This lets the approach scale for very large contact maps and handle all representations in a sparse format.
 
-It is based on the CLIP architecture, which jointly trains an image transformer and a text transformer to project respectively pictures and captions into the same embedding space.
+* [CLOP](https://baudrly.github.io/clop): embedding sequence/annotation pairs in a vector space for visualization and classification purposes. Annotation here is understood in a relatively narrow (species, biotype) sense but can be easily extended conceptually. New, unknown sequences are matched to their nearest neighbors in that space for ultrafast semantic (or, in biological terms, functional) prediction.
 
-In CLOP, we use [Frequency Chaos Game Representation](https://www.sciencedirect.com/science/article/pii/S2001037021004736) to represent DNA sequences as a "fingerprint" image of fixed dimension.
-
-This transformation allows us to work with sequences of very different lengths without limitations related to context window.
-
-We directly fine-tune the CLIP transformers using these DNA images and function texts.
-
-## Status
-
-The fine-tuning of the model could not be done in time, there are 2 wip demos:
-* A telegram bot is available to return the image representation of input DNA sequences: https://t.me/clip_clop_bot
-* A mock interface on GitHub pages to propose related functions to an input sequence: https://baudrly.github.io/clop/
-
-
-## Use cases
-
-The shared embedding can be used directly for various downstream genomic analysis, such as predicting the function of an input sequence, finding closely related sequences with similar functions, or for zero shot classification of DNA sequences (e.g. to detect contaminating sequences).
-
-```mermaid
-
-graph LR
-
-    subgraph func[Function prediction]
-        CLOPFUN[CLOP]
-    end
-    subgraph fuzz[Fuzzy matching]
-        CLOPFUZ[CLOP]
-        MATCH["🧬🧬🧬"]
-    end
-    subgraph zero[Zero shot classification]
-        CLOPZERO[CLOP]
-    end
-  AFUN["🧬"] -->|embed| CLOPFUN
-  CLOPFUN -->|closest texts| FUN["Antibiotic resistance\nAntibiotic degradation"]
-  AFUZ["🧬"] -->|embed| CLOPFUZ
-  CLOPFUZ -->|closest dna| MATCH
-  AZER["🧬"] -->|embed| CLOPZERO
-  DOL["🐬"] -->|embed| CLOPZERO
-  BAC["🦠"] -->|embed| CLOPZERO
-  CLOPZERO --> |similarity| DOLSIM["🐬, 🧬"]
-  CLOPZERO --> |similarity| BACSIM["🦠, 🧬"]
-  BACSIM --> MAX
-  DOLSIM --> MAX
-  MAX --> SELECT["🦠"]
-
-```
-
-## Training data
-
-For this demo, we restricted the training set to human transcript sequences (version GRCh38) and their functional annotations, available to download from https://www.ncbi.nlm.nih.gov/genome/guide/human/
-
-We further subsampled 50,000 sequence-annotation pairs for the fine-tuning experiment.
-
-## Acknowledgement
-
-This project originated at the 2023 SDSC-hackathon on Generative AI. It was initiated by the team Swiss-Androsace (see members in the [LICENSE](./LICENSE) copyright notice).
+Note that demos provide mock data to illustrate the interface and functionality but for actual analyses the user will need to supply their own models. The computations happen entirely on the browser - mind the size of your datasets.
