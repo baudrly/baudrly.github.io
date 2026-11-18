@@ -1,0 +1,838 @@
+{
+  "schema_version": 2,
+  "software": [
+    {
+      "id": "github:baudrly/baudrly.github.io",
+      "entry_id": "repo-baudrly-baudrly-github-io",
+      "anchor_id": "software--repo-baudrly-baudrly-github-io",
+      "repo_url": "https://github.com/baudrly/baudrly.github.io",
+      "artwork": "assets/artwork/repo-baudrly-baudrly-github-io.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_baudrly_github_io.bib",
+      "fork": false,
+      "category": "site/index"
+    },
+    {
+      "id": "github:baudrly/bioconda-recipes",
+      "entry_id": "repo-baudrly-bioconda-recipes",
+      "anchor_id": "software--repo-baudrly-bioconda-recipes",
+      "repo_url": "https://github.com/baudrly/bioconda-recipes",
+      "artwork": "assets/artwork/repo-baudrly-bioconda-recipes.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_bioconda_recipes.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/boost-hic",
+      "entry_id": "repo-baudrly-boost-hic",
+      "anchor_id": "software--repo-baudrly-boost-hic",
+      "repo_url": "https://github.com/baudrly/Boost-HiC",
+      "artwork": "assets/artwork/repo-baudrly-boost-hic.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_boost_hic.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:clavum-figendi/chesslab",
+      "entry_id": "repo-clavum-figendi-chesslab",
+      "anchor_id": "software--repo-clavum-figendi-chesslab",
+      "repo_url": "https://github.com/clavum-figendi/chesslab",
+      "artwork": "assets/artwork/repo-clavum-figendi-chesslab.svg",
+      "bibtex": "assets/bibliography/software/software_github_clavum_figendi_chesslab.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/chromosample",
+      "entry_id": "repo-baudrly-chromosample",
+      "anchor_id": "software--repo-baudrly-chromosample",
+      "repo_url": "https://github.com/baudrly/chromosample",
+      "artwork": "assets/artwork/repo-baudrly-chromosample.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_chromosample.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:koszullab/chromosight",
+      "entry_id": "repo-koszullab-chromosight",
+      "anchor_id": "software--repo-koszullab-chromosight",
+      "repo_url": "https://github.com/koszullab/chromosight",
+      "artwork": "assets/artwork/repo-koszullab-chromosight.svg",
+      "bibtex": "assets/bibliography/software/software_github_koszullab_chromosight.bib",
+      "fork": false,
+      "category": "coauthored-project"
+    },
+    {
+      "id": "github:koszullab/chromosight_analyses_scripts",
+      "entry_id": "repo-koszullab-chromosight-analyses-scripts",
+      "anchor_id": "software--repo-koszullab-chromosight-analyses-scripts",
+      "repo_url": "https://github.com/koszullab/chromosight_analyses_scripts",
+      "artwork": "assets/artwork/repo-koszullab-chromosight-analyses-scripts.svg",
+      "bibtex": "assets/bibliography/software/software_github_koszullab_chromosight_analyses_scripts.bib",
+      "fork": false,
+      "category": "coauthored-project"
+    },
+    {
+      "id": "github:baudrly/chromoview",
+      "entry_id": "repo-baudrly-chromoview",
+      "anchor_id": "software--repo-baudrly-chromoview",
+      "repo_url": "https://github.com/baudrly/chromoview",
+      "artwork": "assets/artwork/repo-baudrly-chromoview.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_chromoview.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/clop",
+      "entry_id": "repo-baudrly-clop",
+      "anchor_id": "software--repo-baudrly-clop",
+      "repo_url": "https://github.com/baudrly/clop",
+      "artwork": "assets/artwork/repo-baudrly-clop.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_clop.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/dna_augmenter",
+      "entry_id": "repo-baudrly-dna-augmenter",
+      "anchor_id": "software--repo-baudrly-dna-augmenter",
+      "repo_url": "https://github.com/baudrly/dna_augmenter",
+      "artwork": "assets/artwork/repo-baudrly-dna-augmenter.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_dna_augmenter.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/ectocarpus_scripts",
+      "entry_id": "repo-baudrly-ectocarpus-scripts",
+      "anchor_id": "software--repo-baudrly-ectocarpus-scripts",
+      "repo_url": "https://github.com/baudrly/ectocarpus_scripts",
+      "artwork": "assets/artwork/repo-baudrly-ectocarpus-scripts.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_ectocarpus_scripts.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/fcgrseq",
+      "entry_id": "repo-baudrly-fcgrseq",
+      "anchor_id": "software--repo-baudrly-fcgrseq",
+      "repo_url": "https://github.com/baudrly/fcgrseq",
+      "artwork": "assets/artwork/repo-baudrly-fcgrseq.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_fcgrseq.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/graal",
+      "entry_id": "repo-baudrly-graal",
+      "anchor_id": "software--repo-baudrly-graal",
+      "repo_url": "https://github.com/baudrly/GRAAL",
+      "artwork": "assets/artwork/repo-baudrly-graal.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_graal.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/hic-box",
+      "entry_id": "repo-baudrly-hic-box",
+      "anchor_id": "software--repo-baudrly-hic-box",
+      "repo_url": "https://github.com/baudrly/HiC-Box",
+      "artwork": "assets/artwork/repo-baudrly-hic-box.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_hic_box.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/hicexperiment",
+      "entry_id": "repo-baudrly-hicexperiment",
+      "anchor_id": "software--repo-baudrly-hicexperiment",
+      "repo_url": "https://github.com/baudrly/HiCExperiment",
+      "artwork": "assets/artwork/repo-baudrly-hicexperiment.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_hicexperiment.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/hicontacts",
+      "entry_id": "repo-baudrly-hicontacts",
+      "anchor_id": "software--repo-baudrly-hicontacts",
+      "repo_url": "https://github.com/baudrly/HiContacts",
+      "artwork": "assets/artwork/repo-baudrly-hicontacts.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_hicontacts.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/hicstuff",
+      "entry_id": "repo-baudrly-hicstuff",
+      "anchor_id": "software--repo-baudrly-hicstuff",
+      "repo_url": "https://github.com/baudrly/hicstuff",
+      "artwork": "assets/artwork/repo-baudrly-hicstuff.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_hicstuff.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/ibd_model",
+      "entry_id": "repo-baudrly-ibd-model",
+      "anchor_id": "software--repo-baudrly-ibd-model",
+      "repo_url": "https://github.com/baudrly/ibd_model",
+      "artwork": "assets/artwork/repo-baudrly-ibd-model.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_ibd_model.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/instagraal",
+      "entry_id": "repo-baudrly-instagraal",
+      "anchor_id": "software--repo-baudrly-instagraal",
+      "repo_url": "https://github.com/baudrly/instaGRAAL",
+      "artwork": "assets/artwork/repo-baudrly-instagraal.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_instagraal.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/levx",
+      "entry_id": "repo-baudrly-levx",
+      "anchor_id": "software--repo-baudrly-levx",
+      "repo_url": "https://github.com/baudrly/levx",
+      "artwork": "assets/artwork/repo-baudrly-levx.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_levx.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/loopred",
+      "entry_id": "repo-baudrly-loopred",
+      "anchor_id": "software--repo-baudrly-loopred",
+      "repo_url": "https://github.com/baudrly/loopred",
+      "artwork": "assets/artwork/repo-baudrly-loopred.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_loopred.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/louvain-binarybuild",
+      "entry_id": "repo-baudrly-louvain-binarybuild",
+      "anchor_id": "software--repo-baudrly-louvain-binarybuild",
+      "repo_url": "https://github.com/baudrly/Louvain-BinaryBuild",
+      "artwork": "assets/artwork/repo-baudrly-louvain-binarybuild.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_louvain_binarybuild.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/metator",
+      "entry_id": "repo-baudrly-metator",
+      "anchor_id": "software--repo-baudrly-metator",
+      "repo_url": "https://github.com/baudrly/metaTOR",
+      "artwork": "assets/artwork/repo-baudrly-metator.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_metator.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:baudrly/mnemogenomics",
+      "entry_id": "repo-baudrly-mnemogenomics",
+      "anchor_id": "software--repo-baudrly-mnemogenomics",
+      "repo_url": "https://github.com/baudrly/mnemogenomics",
+      "artwork": "assets/artwork/repo-baudrly-mnemogenomics.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_mnemogenomics.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/percival",
+      "entry_id": "repo-baudrly-percival",
+      "anchor_id": "software--repo-baudrly-percival",
+      "repo_url": "https://github.com/baudrly/percival",
+      "artwork": "assets/artwork/repo-baudrly-percival.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_percival.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:clavum-figendi/podlingua",
+      "entry_id": "repo-clavum-figendi-podlingua",
+      "anchor_id": "software--repo-clavum-figendi-podlingua",
+      "repo_url": "https://github.com/clavum-figendi/podlingua",
+      "artwork": "assets/artwork/repo-clavum-figendi-podlingua.svg",
+      "bibtex": "assets/bibliography/software/software_github_clavum_figendi_podlingua.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/quill",
+      "entry_id": "repo-baudrly-quill",
+      "anchor_id": "software--repo-baudrly-quill",
+      "repo_url": "https://github.com/baudrly/quill",
+      "artwork": "assets/artwork/repo-baudrly-quill.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_quill.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/serpentine",
+      "entry_id": "repo-baudrly-serpentine",
+      "anchor_id": "software--repo-baudrly-serpentine",
+      "repo_url": "https://github.com/baudrly/serpentine",
+      "artwork": "assets/artwork/repo-baudrly-serpentine.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_serpentine.bib",
+      "fork": true,
+      "category": "fork/contribution"
+    },
+    {
+      "id": "github:clavum-figendi/stillwave",
+      "entry_id": "repo-clavum-figendi-stillwave",
+      "anchor_id": "software--repo-clavum-figendi-stillwave",
+      "repo_url": "https://github.com/clavum-figendi/stillwave",
+      "artwork": "assets/artwork/repo-clavum-figendi-stillwave.svg",
+      "bibtex": "assets/bibliography/software/software_github_clavum_figendi_stillwave.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/trivoroboost",
+      "entry_id": "repo-baudrly-trivoroboost",
+      "anchor_id": "software--repo-baudrly-trivoroboost",
+      "repo_url": "https://github.com/baudrly/trivoroboost",
+      "artwork": "assets/artwork/repo-baudrly-trivoroboost.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_trivoroboost.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/yahcp",
+      "entry_id": "repo-baudrly-yahcp",
+      "anchor_id": "software--repo-baudrly-yahcp",
+      "repo_url": "https://github.com/baudrly/yahcp",
+      "artwork": "assets/artwork/repo-baudrly-yahcp.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_yahcp.bib",
+      "fork": false,
+      "category": "owned-original"
+    },
+    {
+      "id": "github:baudrly/zoeva",
+      "entry_id": "repo-baudrly-zoeva",
+      "anchor_id": "software--repo-baudrly-zoeva",
+      "repo_url": "https://github.com/baudrly/zoeva",
+      "artwork": "assets/artwork/repo-baudrly-zoeva.svg",
+      "bibtex": "assets/bibliography/software/software_github_baudrly_zoeva.bib",
+      "fork": false,
+      "category": "owned-original"
+    }
+  ],
+  "publications": [
+    {
+      "id": "10.1038/s41467-026-70010-4",
+      "entry_id": "pub-10-1038-s41467-026-70010-4",
+      "anchor_id": "publications--pub-10-1038-s41467-026-70010-4",
+      "work_group_id": "10.1038/s41467-026-70010-4",
+      "doi_url": "https://doi.org/10.1038/s41467-026-70010-4",
+      "artwork": "assets/artwork/pub-10-1038-s41467-026-70010-4.svg",
+      "bibtex": "assets/bibliography/publications/10_1038_s41467_026_70010_4.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.5281/zenodo.18844115",
+      "entry_id": "pub-10-5281-zenodo-18844115",
+      "anchor_id": "publications--pub-10-5281-zenodo-18844115",
+      "work_group_id": "10.5281/zenodo.18844115",
+      "doi_url": "https://doi.org/10.5281/zenodo.18844115",
+      "artwork": "assets/artwork/pub-10-5281-zenodo-18844115.svg",
+      "bibtex": "assets/bibliography/publications/10_5281_zenodo_18844115.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1038/s41586-025-10092-0",
+      "entry_id": "pub-10-1038-s41586-025-10092-0",
+      "anchor_id": "publications--pub-10-1038-s41586-025-10092-0",
+      "work_group_id": "10.1038/s41586-025-10092-0",
+      "doi_url": "https://doi.org/10.1038/s41586-025-10092-0",
+      "artwork": "assets/artwork/pub-10-1038-s41586-025-10092-0.svg",
+      "bibtex": "assets/bibliography/publications/10_1038_s41586_025_10092_0.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/2025.04.25.647736",
+      "entry_id": "pub-10-1101-2025-04-25-647736",
+      "anchor_id": "publications--pub-10-1101-2025-04-25-647736",
+      "work_group_id": "10.1038/s41586-025-10092-0",
+      "doi_url": "https://doi.org/10.1101/2025.04.25.647736",
+      "artwork": "assets/artwork/pub-10-1101-2025-04-25-647736.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2025_04_25_647736.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.7554/elife.94948",
+      "entry_id": "pub-10-7554-elife-94948",
+      "anchor_id": "publications--pub-10-7554-elife-94948",
+      "work_group_id": "10.7554/elife.94948",
+      "doi_url": "https://doi.org/10.7554/elife.94948",
+      "artwork": "assets/artwork/pub-10-7554-elife-94948.svg",
+      "bibtex": "assets/bibliography/publications/10_7554_elife_94948.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/2022.06.24.497508",
+      "entry_id": "pub-10-1101-2022-06-24-497508",
+      "anchor_id": "publications--pub-10-1101-2022-06-24-497508",
+      "work_group_id": "10.7554/elife.94948",
+      "doi_url": "https://doi.org/10.1101/2022.06.24.497508",
+      "artwork": "assets/artwork/pub-10-1101-2022-06-24-497508.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2022_06_24_497508.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.7554/elife.94948.sa2",
+      "entry_id": "pub-10-7554-elife-94948-sa2",
+      "anchor_id": "publications--pub-10-7554-elife-94948-sa2",
+      "work_group_id": "10.7554/elife.94948",
+      "doi_url": "https://doi.org/10.7554/elife.94948.sa2",
+      "artwork": "assets/artwork/pub-10-7554-elife-94948-sa2.svg",
+      "bibtex": "assets/bibliography/publications/10_7554_elife_94948_sa2.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1038/s41467-024-44761-x",
+      "entry_id": "pub-10-1038-s41467-024-44761-x",
+      "anchor_id": "publications--pub-10-1038-s41467-024-44761-x",
+      "work_group_id": "10.1038/s41467-024-44761-x",
+      "doi_url": "https://doi.org/10.1038/s41467-024-44761-x",
+      "artwork": "assets/artwork/pub-10-1038-s41467-024-44761-x.svg",
+      "bibtex": "assets/bibliography/publications/10_1038_s41467_024_44761_x.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1111/eva.13462",
+      "entry_id": "pub-10-1111-eva-13462",
+      "anchor_id": "publications--pub-10-1111-eva-13462",
+      "work_group_id": "10.1111/eva.13462",
+      "doi_url": "https://doi.org/10.1111/eva.13462",
+      "artwork": "assets/artwork/pub-10-1111-eva-13462.svg",
+      "bibtex": "assets/bibliography/publications/10_1111_eva_13462.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/2022.06.26.497643",
+      "entry_id": "pub-10-1101-2022-06-26-497643",
+      "anchor_id": "publications--pub-10-1101-2022-06-26-497643",
+      "work_group_id": "10.1111/eva.13462",
+      "doi_url": "https://doi.org/10.1101/2022.06.26.497643",
+      "artwork": "assets/artwork/pub-10-1101-2022-06-26-497643.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2022_06_26_497643.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.24072/pcjournal.140",
+      "entry_id": "pub-10-24072-pcjournal-140",
+      "anchor_id": "publications--pub-10-24072-pcjournal-140",
+      "work_group_id": "10.24072/pcjournal.140",
+      "doi_url": "https://doi.org/10.24072/pcjournal.140",
+      "artwork": "assets/artwork/pub-10-24072-pcjournal-140.svg",
+      "bibtex": "assets/bibliography/publications/10_24072_pcjournal_140.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/2022.01.07.475286",
+      "entry_id": "pub-10-1101-2022-01-07-475286",
+      "anchor_id": "publications--pub-10-1101-2022-01-07-475286",
+      "work_group_id": "10.24072/pcjournal.140",
+      "doi_url": "https://doi.org/10.1101/2022.01.07.475286",
+      "artwork": "assets/artwork/pub-10-1101-2022-01-07-475286.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2022_01_07_475286.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1126/sciadv.abg4216",
+      "entry_id": "pub-10-1126-sciadv-abg4216",
+      "anchor_id": "publications--pub-10-1126-sciadv-abg4216",
+      "work_group_id": "10.1126/sciadv.abg4216",
+      "doi_url": "https://doi.org/10.1126/sciadv.abg4216",
+      "artwork": "assets/artwork/pub-10-1126-sciadv-abg4216.svg",
+      "bibtex": "assets/bibliography/publications/10_1126_sciadv_abg4216.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/2020.06.16.155473",
+      "entry_id": "pub-10-1101-2020-06-16-155473",
+      "anchor_id": "publications--pub-10-1101-2020-06-16-155473",
+      "work_group_id": "10.1126/sciadv.abg4216",
+      "doi_url": "https://doi.org/10.1101/2020.06.16.155473",
+      "artwork": "assets/artwork/pub-10-1101-2020-06-16-155473.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2020_06_16_155473.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1007/978-1-0716-1390-0_1",
+      "entry_id": "pub-10-1007-978-1-0716-1390-0-1",
+      "anchor_id": "publications--pub-10-1007-978-1-0716-1390-0-1",
+      "work_group_id": "10.1007/978-1-0716-1390-0_1",
+      "doi_url": "https://doi.org/10.1007/978-1-0716-1390-0_1",
+      "artwork": "assets/artwork/pub-10-1007-978-1-0716-1390-0-1.svg",
+      "bibtex": "assets/bibliography/publications/10_1007_978_1_0716_1390_0_1.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1038/s42003-020-01623-8",
+      "entry_id": "pub-10-1038-s42003-020-01623-8",
+      "anchor_id": "publications--pub-10-1038-s42003-020-01623-8",
+      "work_group_id": "10.1038/s42003-020-01623-8",
+      "doi_url": "https://doi.org/10.1038/s42003-020-01623-8",
+      "artwork": "assets/artwork/pub-10-1038-s42003-020-01623-8.svg",
+      "bibtex": "assets/bibliography/publications/10_1038_s42003_020_01623_8.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1038/s42003-021-02480-9",
+      "entry_id": "pub-10-1038-s42003-021-02480-9",
+      "anchor_id": "publications--pub-10-1038-s42003-021-02480-9",
+      "work_group_id": "10.1038/s42003-020-01623-8",
+      "doi_url": "https://doi.org/10.1038/s42003-021-02480-9",
+      "artwork": "assets/artwork/pub-10-1038-s42003-021-02480-9.svg",
+      "bibtex": "assets/bibliography/publications/10_1038_s42003_021_02480_9.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1101/2020.03.19.994459",
+      "entry_id": "pub-10-1101-2020-03-19-994459",
+      "anchor_id": "publications--pub-10-1101-2020-03-19-994459",
+      "work_group_id": "10.1038/s42003-020-01623-8",
+      "doi_url": "https://doi.org/10.1101/2020.03.19.994459",
+      "artwork": "assets/artwork/pub-10-1101-2020-03-19-994459.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2020_03_19_994459.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1038/s41467-020-19562-7",
+      "entry_id": "pub-10-1038-s41467-020-19562-7",
+      "anchor_id": "publications--pub-10-1038-s41467-020-19562-7",
+      "work_group_id": "10.1038/s41467-020-19562-7",
+      "doi_url": "https://doi.org/10.1038/s41467-020-19562-7",
+      "artwork": "assets/artwork/pub-10-1038-s41467-020-19562-7.svg",
+      "bibtex": "assets/bibliography/publications/10_1038_s41467_020_19562_7.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/2020.03.08.981910",
+      "entry_id": "pub-10-1101-2020-03-08-981910",
+      "anchor_id": "publications--pub-10-1101-2020-03-08-981910",
+      "work_group_id": "10.1038/s41467-020-19562-7",
+      "doi_url": "https://doi.org/10.1101/2020.03.08.981910",
+      "artwork": "assets/artwork/pub-10-1101-2020-03-08-981910.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2020_03_08_981910.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1186/s13059-020-02041-z",
+      "entry_id": "pub-10-1186-s13059-020-02041-z",
+      "anchor_id": "publications--pub-10-1186-s13059-020-02041-z",
+      "work_group_id": "10.1186/s13059-020-02041-z",
+      "doi_url": "https://doi.org/10.1186/s13059-020-02041-z",
+      "artwork": "assets/artwork/pub-10-1186-s13059-020-02041-z.svg",
+      "bibtex": "assets/bibliography/publications/10_1186_s13059_020_02041_z.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/2019.12.22.882084",
+      "entry_id": "pub-10-1101-2019-12-22-882084",
+      "anchor_id": "publications--pub-10-1101-2019-12-22-882084",
+      "work_group_id": "10.1186/s13059-020-02041-z",
+      "doi_url": "https://doi.org/10.1101/2019.12.22.882084",
+      "artwork": "assets/artwork/pub-10-1101-2019-12-22-882084.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_2019_12_22_882084.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1093/bioinformatics/btaa249",
+      "entry_id": "pub-10-1093-bioinformatics-btaa249",
+      "anchor_id": "publications--pub-10-1093-bioinformatics-btaa249",
+      "work_group_id": "10.1093/bioinformatics/btaa249",
+      "doi_url": "https://doi.org/10.1093/bioinformatics/btaa249",
+      "artwork": "assets/artwork/pub-10-1093-bioinformatics-btaa249.svg",
+      "bibtex": "assets/bibliography/publications/10_1093_bioinformatics_btaa249.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.3389/fgene.2019.00753",
+      "entry_id": "pub-10-3389-fgene-2019-00753",
+      "anchor_id": "publications--pub-10-3389-fgene-2019-00753",
+      "work_group_id": "10.3389/fgene.2019.00753",
+      "doi_url": "https://doi.org/10.3389/fgene.2019.00753",
+      "artwork": "assets/artwork/pub-10-3389-fgene-2019-00753.svg",
+      "bibtex": "assets/bibliography/publications/10_3389_fgene_2019_00753.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.70675/a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "entry_id": "pub-10-70675-a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "anchor_id": "publications--pub-10-70675-a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "work_group_id": "10.70675/a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "doi_url": "https://doi.org/10.70675/a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "artwork": "assets/artwork/pub-10-70675-a91a798czcccbz4ccfzb7f8zc2f5d6e00d20.svg",
+      "bibtex": "assets/bibliography/publications/10_70675_a91a798czcccbz4ccfzb7f8zc2f5d6e00d20.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1186/s13068-017-0837-6",
+      "entry_id": "pub-10-1186-s13068-017-0837-6",
+      "anchor_id": "publications--pub-10-1186-s13068-017-0837-6",
+      "work_group_id": "10.1186/s13068-017-0837-6",
+      "doi_url": "https://doi.org/10.1186/s13068-017-0837-6",
+      "artwork": "assets/artwork/pub-10-1186-s13068-017-0837-6.svg",
+      "bibtex": "assets/bibliography/publications/10_1186_s13068_017_0837_6.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1186/s13068-018-1161-5",
+      "entry_id": "pub-10-1186-s13068-018-1161-5",
+      "anchor_id": "publications--pub-10-1186-s13068-018-1161-5",
+      "work_group_id": "10.1186/s13068-017-0837-6",
+      "doi_url": "https://doi.org/10.1186/s13068-018-1161-5",
+      "artwork": "assets/artwork/pub-10-1186-s13068-018-1161-5.svg",
+      "bibtex": "assets/bibliography/publications/10_1186_s13068_018_1161_5.bib",
+      "preferred": false
+    },
+    {
+      "id": "10.1126/sciadv.1602105",
+      "entry_id": "pub-10-1126-sciadv-1602105",
+      "anchor_id": "publications--pub-10-1126-sciadv-1602105",
+      "work_group_id": "10.1126/sciadv.1602105",
+      "doi_url": "https://doi.org/10.1126/sciadv.1602105",
+      "artwork": "assets/artwork/pub-10-1126-sciadv-1602105.svg",
+      "bibtex": "assets/bibliography/publications/10_1126_sciadv_1602105.bib",
+      "preferred": true
+    },
+    {
+      "id": "10.1101/034793",
+      "entry_id": "pub-10-1101-034793",
+      "anchor_id": "publications--pub-10-1101-034793",
+      "work_group_id": "10.1126/sciadv.1602105",
+      "doi_url": "https://doi.org/10.1101/034793",
+      "artwork": "assets/artwork/pub-10-1101-034793.svg",
+      "bibtex": "assets/bibliography/publications/10_1101_034793.bib",
+      "preferred": false
+    }
+  ],
+  "work_groups": [
+    {
+      "id": "10.1038/s41467-026-70010-4",
+      "title": "Segmented filamentous bacteria are worldwide human gut commensals",
+      "preferred_publication_id": "10.1038/s41467-026-70010-4",
+      "publication_ids": [
+        "10.1038/s41467-026-70010-4"
+      ],
+      "entry_id": "pub-10-1038-s41467-026-70010-4",
+      "anchor_id": "publications--pub-10-1038-s41467-026-70010-4",
+      "artwork": "assets/artwork/pub-10-1038-s41467-026-70010-4.svg"
+    },
+    {
+      "id": "10.5281/zenodo.18844115",
+      "title": "Contrastive omics pre-training for multimodal embeddings of genomic sequences",
+      "preferred_publication_id": "10.5281/zenodo.18844115",
+      "publication_ids": [
+        "10.5281/zenodo.18844115"
+      ],
+      "entry_id": "pub-10-5281-zenodo-18844115",
+      "anchor_id": "publications--pub-10-5281-zenodo-18844115",
+      "artwork": "assets/artwork/pub-10-5281-zenodo-18844115.svg"
+    },
+    {
+      "id": "10.1038/s41586-025-10092-0",
+      "title": "Ancient co-option of LTR retrotransposons as yeast centromeres",
+      "preferred_publication_id": "10.1038/s41586-025-10092-0",
+      "publication_ids": [
+        "10.1038/s41586-025-10092-0",
+        "10.1101/2025.04.25.647736"
+      ],
+      "entry_id": "pub-10-1038-s41586-025-10092-0",
+      "anchor_id": "publications--pub-10-1038-s41586-025-10092-0",
+      "artwork": "assets/artwork/pub-10-1038-s41586-025-10092-0.svg"
+    },
+    {
+      "id": "10.7554/elife.94948",
+      "title": "Insights into early animal evolution from the genome of the xenacoelomorph worm Xenoturbella bocki",
+      "preferred_publication_id": "10.7554/elife.94948",
+      "publication_ids": [
+        "10.1101/2022.06.24.497508",
+        "10.7554/elife.94948",
+        "10.7554/elife.94948.sa2"
+      ],
+      "entry_id": "pub-10-7554-elife-94948",
+      "anchor_id": "publications--pub-10-7554-elife-94948",
+      "artwork": "assets/artwork/pub-10-7554-elife-94948.svg"
+    },
+    {
+      "id": "10.1038/s41467-024-44761-x",
+      "title": "Orchestrating chromosome conformation capture analysis with Bioconductor",
+      "preferred_publication_id": "10.1038/s41467-024-44761-x",
+      "publication_ids": [
+        "10.1038/s41467-024-44761-x"
+      ],
+      "entry_id": "pub-10-1038-s41467-024-44761-x",
+      "anchor_id": "publications--pub-10-1038-s41467-024-44761-x",
+      "artwork": "assets/artwork/pub-10-1038-s41467-024-44761-x.svg"
+    },
+    {
+      "id": "10.1111/eva.13462",
+      "title": "Chromosomal assembly of the flat oyster (Ostrea edulis L.) genome as a new genetic resource for aquaculture",
+      "preferred_publication_id": "10.1111/eva.13462",
+      "publication_ids": [
+        "10.1101/2022.06.26.497643",
+        "10.1111/eva.13462"
+      ],
+      "entry_id": "pub-10-1111-eva-13462",
+      "anchor_id": "publications--pub-10-1111-eva-13462",
+      "artwork": "assets/artwork/pub-10-1111-eva-13462.svg"
+    },
+    {
+      "id": "10.24072/pcjournal.140",
+      "title": "Chromosome-level genome assembly and annotation of two lineages of the ant Cataglyphis hispanica: stepping stones towards genomic studies of hybridogenesis and thermal adaptation in desert ants",
+      "preferred_publication_id": "10.24072/pcjournal.140",
+      "publication_ids": [
+        "10.1101/2022.01.07.475286",
+        "10.24072/pcjournal.140"
+      ],
+      "entry_id": "pub-10-24072-pcjournal-140",
+      "anchor_id": "publications--pub-10-24072-pcjournal-140",
+      "artwork": "assets/artwork/pub-10-24072-pcjournal-140.svg"
+    },
+    {
+      "id": "10.1126/sciadv.abg4216",
+      "title": "Chromosome-level genome assembly reveals homologous chromosomes and recombination in asexual rotifer Adineta vaga",
+      "preferred_publication_id": "10.1126/sciadv.abg4216",
+      "publication_ids": [
+        "10.1101/2020.06.16.155473",
+        "10.1126/sciadv.abg4216"
+      ],
+      "entry_id": "pub-10-1126-sciadv-abg4216",
+      "anchor_id": "publications--pub-10-1126-sciadv-abg4216",
+      "artwork": "assets/artwork/pub-10-1126-sciadv-abg4216.svg"
+    },
+    {
+      "id": "10.1007/978-1-0716-1390-0_1",
+      "title": "Normalization of Chromosome Contact Maps: Matrix Balancing and Visualization",
+      "preferred_publication_id": "10.1007/978-1-0716-1390-0_1",
+      "publication_ids": [
+        "10.1007/978-1-0716-1390-0_1"
+      ],
+      "entry_id": "pub-10-1007-978-1-0716-1390-0-1",
+      "anchor_id": "publications--pub-10-1007-978-1-0716-1390-0-1",
+      "artwork": "assets/artwork/pub-10-1007-978-1-0716-1390-0-1.svg"
+    },
+    {
+      "id": "10.1038/s42003-020-01623-8",
+      "title": "Chromosomal scale assembly of parasitic wasp genome reveals symbiotic virus colonization",
+      "preferred_publication_id": "10.1038/s42003-020-01623-8",
+      "publication_ids": [
+        "10.1038/s42003-020-01623-8",
+        "10.1038/s42003-021-02480-9",
+        "10.1101/2020.03.19.994459"
+      ],
+      "entry_id": "pub-10-1038-s42003-020-01623-8",
+      "anchor_id": "publications--pub-10-1038-s42003-020-01623-8",
+      "artwork": "assets/artwork/pub-10-1038-s42003-020-01623-8.svg"
+    },
+    {
+      "id": "10.1038/s41467-020-19562-7",
+      "title": "Computer vision for pattern detection in chromosome contact maps",
+      "preferred_publication_id": "10.1038/s41467-020-19562-7",
+      "publication_ids": [
+        "10.1038/s41467-020-19562-7",
+        "10.1101/2020.03.08.981910"
+      ],
+      "entry_id": "pub-10-1038-s41467-020-19562-7",
+      "anchor_id": "publications--pub-10-1038-s41467-020-19562-7",
+      "artwork": "assets/artwork/pub-10-1038-s41467-020-19562-7.svg"
+    },
+    {
+      "id": "10.1186/s13059-020-02041-z",
+      "title": "instaGRAAL: chromosome-level quality scaffolding of genomes using a proximity ligation-based scaffolder",
+      "preferred_publication_id": "10.1186/s13059-020-02041-z",
+      "publication_ids": [
+        "10.1101/2019.12.22.882084",
+        "10.1186/s13059-020-02041-z"
+      ],
+      "entry_id": "pub-10-1186-s13059-020-02041-z",
+      "anchor_id": "publications--pub-10-1186-s13059-020-02041-z",
+      "artwork": "assets/artwork/pub-10-1186-s13059-020-02041-z.svg"
+    },
+    {
+      "id": "10.1093/bioinformatics/btaa249",
+      "title": "Serpentine: a flexible 2D binning method for differential Hi-C analysis",
+      "preferred_publication_id": "10.1093/bioinformatics/btaa249",
+      "publication_ids": [
+        "10.1093/bioinformatics/btaa249"
+      ],
+      "entry_id": "pub-10-1093-bioinformatics-btaa249",
+      "anchor_id": "publications--pub-10-1093-bioinformatics-btaa249",
+      "artwork": "assets/artwork/pub-10-1093-bioinformatics-btaa249.svg"
+    },
+    {
+      "id": "10.3389/fgene.2019.00753",
+      "title": "MetaTOR: A Computational Pipeline to Recover High-Quality Metagenomic Bins From Mammalian Gut Proximity-Ligation (meta3C) Libraries",
+      "preferred_publication_id": "10.3389/fgene.2019.00753",
+      "publication_ids": [
+        "10.3389/fgene.2019.00753"
+      ],
+      "entry_id": "pub-10-3389-fgene-2019-00753",
+      "anchor_id": "publications--pub-10-3389-fgene-2019-00753",
+      "artwork": "assets/artwork/pub-10-3389-fgene-2019-00753.svg"
+    },
+    {
+      "id": "10.70675/a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "title": "Investigating chromosome dynamics through Hi-C assembly",
+      "preferred_publication_id": "10.70675/a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "publication_ids": [
+        "10.70675/a91a798czcccbz4ccfzb7f8zc2f5d6e00d20"
+      ],
+      "entry_id": "pub-10-70675-a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "anchor_id": "publications--pub-10-70675-a91a798czcccbz4ccfzb7f8zc2f5d6e00d20",
+      "artwork": "assets/artwork/pub-10-70675-a91a798czcccbz4ccfzb7f8zc2f5d6e00d20.svg"
+    },
+    {
+      "id": "10.1186/s13068-017-0837-6",
+      "title": "Proximity ligation scaffolding and comparison of two Trichoderma reesei strains genomes",
+      "preferred_publication_id": "10.1186/s13068-017-0837-6",
+      "publication_ids": [
+        "10.1186/s13068-017-0837-6",
+        "10.1186/s13068-018-1161-5"
+      ],
+      "entry_id": "pub-10-1186-s13068-017-0837-6",
+      "anchor_id": "publications--pub-10-1186-s13068-017-0837-6",
+      "artwork": "assets/artwork/pub-10-1186-s13068-017-0837-6.svg"
+    },
+    {
+      "id": "10.1126/sciadv.1602105",
+      "title": "Scaffolding bacterial genomes and probing host-virus interactions in gut microbiome by proximity ligation (chromosome capture) assay",
+      "preferred_publication_id": "10.1126/sciadv.1602105",
+      "publication_ids": [
+        "10.1101/034793",
+        "10.1126/sciadv.1602105"
+      ],
+      "entry_id": "pub-10-1126-sciadv-1602105",
+      "anchor_id": "publications--pub-10-1126-sciadv-1602105",
+      "artwork": "assets/artwork/pub-10-1126-sciadv-1602105.svg"
+    }
+  ],
+  "associated_outputs": [],
+  "downloads": {
+    "software": "assets/bibliography/software.bib",
+    "publications": "assets/bibliography/publications.bib",
+    "everything": "assets/bibliography/everything.bib"
+  },
+  "source_coverage_counts": {
+    "software_repositories": 32,
+    "owned_account_repositories": 30,
+    "additional_collaborative_repositories": 2,
+    "repositories_by_owner": {
+      "baudrly": 27,
+      "clavum-figendi": 3,
+      "koszullab": 2
+    },
+    "publication_records": 29,
+    "intellectual_work_groups": 17,
+    "illustrations": 61,
+    "bibtex_records": 61
+  }
+}

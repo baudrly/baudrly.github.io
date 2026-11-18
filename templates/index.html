@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="{{DESCRIPTION}}">
+  <meta name="theme-color" content="#fafafa">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:type" content="website">
+  <title>{{TITLE}}</title>
+  <link rel="icon" href="./assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./assets/sober.css">
+  {{FEED_LINK}}
+  <script src="./assets/theme.js"></script>
+  <script src="./site-data.js" defer></script>
+  <script src="./assets/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header wrap">
+    <nav aria-label="Main navigation" role="tablist"></nav>
+    <div class="header-actions">
+      <button class="icon-button search-toggle" aria-label="Search this site" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><span class="shortcut" aria-hidden="true">/</span></button>
+      <button class="icon-button" id="theme-toggle" aria-label="Choose theme" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 1 0 18Z"/></svg></button>
+    </div>
+  </header>
+  <main id="main" class="wrap"><noscript><p>Enable JavaScript to browse this site.</p></noscript></main>
+  <footer class="wrap site-footer">
+    <div class="socials" aria-label="Social profiles and notes feed">
+      <span class="social-icon" data-social="email"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg></span>
+      <span class="social-icon" data-social="github"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9c0-1.1-.4-1.7-.8-2.1 2.7-.3 5.5-1.3 5.5-6A4.7 4.7 0 0 0 18.4 7c.1-.3.6-1.6-.1-3.3 0 0-1.1-.3-3.6 1.3a12.5 12.5 0 0 0-6.6 0C5.6 3.4 4.5 3.7 4.5 3.7 3.8 5.4 4.3 6.7 4.4 7a4.7 4.7 0 0 0-1.3 3.2c0 4.7 2.8 5.7 5.5 6-.4.4-.8 1.1-.8 2.1V22"/></svg></span>
+      <span class="social-icon" data-social="linkedin"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7m4 0v-7m0 3a3 3 0 0 1 6 0v4"/><circle cx="7" cy="7" r=".8"/></svg></span>
+      <span class="social-icon" data-social="keybase"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="8" cy="8" r="5"/><path d="m11.5 11.5 9 9M16 16l3-3m-1 5 3-3M6 7h.01"/></svg></span>
+      <span class="social-icon" data-social="orcid"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M7 10v7m4 0v-7h2a3.5 3.5 0 0 1 0 7Z"/><circle cx="7" cy="7" r=".7"/></svg></span>
+      <span class="social-icon" data-social="researchgate"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V6h4a4 4 0 0 1 0 8H4m4 0 4 6m8-16a4 4 0 1 0 0 6V7h-3"/></svg></span>
+      <span class="social-icon" data-social="pypi"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3 7 9-4 9 4v10l-9 4-9-4Zm0 0 9 4 9-4M12 11v10M8 5l9 4v5"/><circle cx="8" cy="13" r="1"/></svg></span>
+      <span class="social-icon" data-social="agents">{{AGENTMAIL_ICON}}</span>
+      <span class="social-icon" data-social="rss"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4a16 16 0 0 1 16 16M4 10a10 10 0 0 1 10 10"/><circle cx="5" cy="19" r="1.4"/></svg></span>
+    </div><span id="email-link"></span>
+  </footer>
+  <dialog id="search-dialog" class="search-dialog" aria-labelledby="search-title"><div class="dialog-heading"><h2 id="search-title">Search</h2><button class="icon-button close-dialog" aria-label="Close search">✕</button></div><label class="sr-only" for="search-input">Search this site</label><input id="search-input" type="search" placeholder="Search pages and notes…" autocomplete="off"><p id="search-status" class="search-status" role="status"></p><div id="search-results" class="search-results"></div><p class="dialog-hint">Search stays in your browser. <kbd>esc</kbd> to close.</p></dialog>
+  <dialog id="note-dialog" class="note-dialog" aria-labelledby="note-title"><div class="dialog-heading"><p id="note-category" class="eyebrow"></p><button class="icon-button close-dialog" aria-label="Close note">✕</button></div><h2 id="note-title"></h2><div id="note-body" class="prose"></div></dialog>
+  <dialog id="theme-dialog" class="theme-dialog" aria-labelledby="theme-title">
+    <div class="dialog-heading"><h2 id="theme-title">Appearance</h2><button class="icon-button close-dialog" aria-label="Close appearance">✕</button></div>
+    <fieldset class="theme-options"><legend class="sr-only">Colour theme</legend>
+      <label class="theme-option"><input type="radio" name="theme" value="system"><span class="theme-swatch swatch-system" aria-hidden="true"></span><span>System</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="light"><span class="theme-swatch swatch-light" aria-hidden="true"></span><span>Paper</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="dark"><span class="theme-swatch swatch-dark" aria-hidden="true"></span><span>Ink</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="sand"><span class="theme-swatch swatch-sand" aria-hidden="true"></span><span>Sand</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="moss"><span class="theme-swatch swatch-moss" aria-hidden="true"></span><span>Moss</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="slate"><span class="theme-swatch swatch-slate" aria-hidden="true"></span><span>Slate</span></label>
+      <label class="theme-option"><input type="radio" name="theme" value="clay"><span class="theme-swatch swatch-clay" aria-hidden="true"></span><span>Clay</span></label>
+    </fieldset>
+  </dialog>
+</body>
+</html>
